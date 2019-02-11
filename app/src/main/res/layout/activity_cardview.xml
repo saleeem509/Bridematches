@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardview">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:clickable="true"
+        android:id="@+id/card_view"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="5dp">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <ImageView
+                android:id="@+id/brides"
+                android:tag="image_tag"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:background="@color/black"
+                android:scaleType="centerCrop"/>
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/d"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"/>
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Ageis25yrs"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="170dp"/>
+        <TextView
+            android:id="@+id/caste"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/HindusKammas"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="170dp"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Andhra pradesh"
+            android:textSize="20sp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="170dp"/>
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtitem"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="130dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/Photo"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="10sp" />-->
+    </RelativeLayout>
+</RelativeLayout>

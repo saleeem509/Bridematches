@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BrideMatches</string>
+    <string name="matches">matches</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Premium_Members">Premium_Members</string>
+    <string name="New_matches">New_Matches</string>
+    <string name="Matches">Matches</string>
+    <string name="Photo">Photo</string>
+    <string name="title_Mailbox">Mailbox</string>
+    <string name="title_search">Search</string>
+    <string name="menu">menu</string>
+    <string name="M">Menu</string>
+    <string name="Me">Menu</string>
+    <string name="Menu">Menu</string>
+    <string name="Search">search</string>
+    <string name="Notification">Notification</string>
+    <string name="title_Mailbo">Mailbox</string>
+    <string name="title_activity_matches">Matches</string>
+    <string name="divya_age_25_yrs_hindu_kamma_ashwini_chilakalutipeta_andhra_pradesh_india">Divya Age 25 yrs Hindu kamma Ashwini chilakalutipeta Andhra pradesh India</string>
+    <string name="brides">brides</string>
+    <string name="d">Divya</string>
+    <string name="Ageis25yrs">Age is 25 yrs</string>
+    <string name="HindusKammas">Hindus kammas</string>
+</resources>
